@@ -5,3 +5,13 @@
     --color-400: #3d488a;
     --color-500: #2241f7;
 }
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+
+.container-fluid {
+    padding: 0;
+}
