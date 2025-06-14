@@ -1,133 +1,180 @@
 <!DOCTYPE html>
-    <html lang="pl">
-    <head>
-          <meta charset="utf-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Portal InfoInfo</title>
-          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-          <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&subset=latin-ext" rel="stylesheet">
-          <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-          <link href="css/portal.css" rel="stylesheet" type="text/css">
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portal InfoInfo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&subset=latin-ext" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+        <link href="css/portal.css" rel="stylesheet" type="text/css">
     </head>
     
     <body>
-        <!-- menu -->
-            <!-- informacja o portalu -->
-            <!-- kategorie tekstów -->
-            <!-- prezentacje autorów -->
-    <div id="autorzyCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-      <div class="carousel-inner">
+		<main>
+			<!-- menu -->
+				<!-- informacja o portalu -->
+				<!-- kategorie tekstów -->
+					<section class="kategorie-sekcja text-center">
+						<div class="container">
+							<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+								<div class="col">
+									<div class="category">
+										<i class="bi bi-chat-left-text fs-1"></i>
+										<h5>Wiadomości</h5>
+										<p>Najświeższe wiadomości i informacje z dziedziny informatyki. Coś dla programistów i zwykłych użytkowników komputerów, tabletów oraz smartfonów.</p>
+									</div>
+								</div>
+								<div class="col">
+									<div class="category">
+										<i class="bi bi-journal-richtext fs-1"></i>
+										<h5>Artykuły</h5>
+										<p>Artykuły w naszym serwisie pisane są przez wybitnych znawców tematu, którzy z olbrzymią przenikliwością zgłębiają każdy temat.</p>
+									</div>
+								</div>
+								<div class="col">
+									<div class="category">
+										<i class="bi bi-speedometer fs-1"></i>
+										<h5>Testy</h5>
+										<p>Nasze laboratorium testuje dla Was najnowszy sprzęt, poddając go elektronicznym torturom i wyciskając siódme poty elektronów.</p>
+									</div>
+								</div>
+								<div class="col">
+									<div class="category">
+										<i class="bi bi-life-preserver fs-1"></i>
+										<h5>Porady</h5>
+										<p>Jeżeli wciąż masz problemy z obsługą komputerów lub chcesz pracować efektywnie, zajrzyj do sekcji z poradami dla adminów i laików.</p>
+									</div>
+								</div>
+								<div class="col">
+									<div class="category">
+										<i class="bi bi-display fs-1"></i>
+										<h5>Tutoriale</h5>
+										<p>W tutorialach opisujemy krok po kroku w jaki sposób rozwiązać zadania programistyczne praktycznie z każdej dziedziny.</p>
+									</div>
+								</div>
+								<div class="col">
+									<div class="category">
+										<i class="bi bi-controller fs-1"></i>
+										<h5>Recenzje</h5>
+										<p>Czytamy najciekawsze książki informatyczne i gramy dla Was w najnowsze gry, aby później opisać je dokładnie w tym dziale.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					
+				<!-- prezentacje autorów -->
+					<div id="autorzyCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="container-fluid p-5" style="background-color: var(--color-100)">
+									<div class="row">
+										<div class="col-12 col-lg-4 text-center">
+											<img src="img/autorzy/autorzy.jpg" alt="Autorzy" class="img-fluid rounded-circle">
+										</div>
+									
+										<div class="col-12 col-lg-8">
+											<h3 class="fw-bold">Twórcy portalu</h3>
+											<p class="ms-2 mt-4 fst-italic">
+												Z portalem współpracują uznani programiści oraz studenci, którzy chcą rozwijać swoje umiejętności i zdobywać doświadczenie praktyczne. Dołącz do naszego zespołu!
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="container-fluid p-5" style="background-color: var(--color-100)">
+									<div class="row">
+										<div class="col-12 col-lg-4 text-center">
+											<img src="img/autorzy/autor1.jpg" alt="Piotr" class="img-fluid rounded-circle">
+										</div>
+										<div class="col-12 col-lg-8">
+											<h3 class="fw-bold">Piotr</h3>
+											<p class="ms-2 mt-4 fst-italic">
+												Wszechstronny programista aplikacji sieciowych i internetowych. W portfolio ma kilka ciekawych projektów zrealizowanych dla firm z branży finansowej. Współpracuje z innowacyjnymi startupami.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="container-fluid p-5" style="background-color: var(--color-100)">
+									<div class="row">
+										<div class="col-12 col-lg-4 text-center">
+											<img src="img/autorzy/autor2.jpg" alt="Anna" class="img-fluid rounded-circle">
+										</div>
+										<div class="col-12 col-lg-8">
+											<h3 class="fw-bold">Anna</h3>
+											<p class="ms-2 mt-4 fst-italic">
+												Doświadczona programistka i projektantka stron internetowych oraz uznana blogerka. Specjalizuje się w HTML5, CSS3, JavaScript, jQuery i Bootstrap. Obecnie pracuje nad nowymi rozwiązaniami dla graczy.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#autorzyCarousel" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#autorzyCarousel" data-bs-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</button>
+					</div>
+				
+				<!-- formularz kontaktowy -->
+					<section id="kontakt" class="py-5" style="background-color:#5c6bc0; color:white;">
+						<div class="container">
+							<h2 class="text-center mb-3">Kontakt</h2>
+							<p class="text-center mb-4"><em>Czekamy na Twoją opinię.</em></p>
+							<div class="row">
+								<div class="col-lg-4 mb-4">
+									<p><i class="bi bi-geo-alt-fill me-2"></i>Płock, al. Kilińskiego 12</p>
+									<p><i class="bi bi-telephone-fill me-2"></i>+48 24 366 41 28</p>
+									<p><i class="bi bi-envelope-fill me-2"></i>informatyka@wlodkowic.pl</p>
+								</div>
+								<div class="col-lg-8">
+									<form>
+										<div class="row">
+											<div class="col-md-6 mb-3">
+												<label for="imie" class="form-label">Podaj imię</label>
+												<input type="text" class="form-control" id="imie" placeholder="Imię">
+											</div>
+											<div class="col-md-6 mb-3">
+												<label for="email" class="form-label">Podaj adres e-mail</label>
+												<input type="email" class="form-control" id="email" placeholder="e-mail">
+											</div>
+											<div class="mb-3">
+												<label for="uwagi" class="form-label">Wpisz swoje uwagi i komentarze</label>
+												<textarea class="form-control" id="uwagi" rows="5" placeholder="Uwagi i komentarze"></textarea>
+											</div>
+											<div class="text-end">
+												<button type="submit" class="btn btn-light">Prześlij</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>		
+					</section>
 
-        <div class="carousel-item active">
-          <div class="container-fluid p-5" style="background-color: var(--color-100)">
-            <div class="row">
-              <div class="col-12 col-lg-4 text-center">
-                <img src="img/autorzy/autorzy.jpg" alt="Autorzy" class="img-fluid rounded-circle">
-              </div>
-          
-              <div class="col-12 col-lg-8">
-                <h3 class="fw-bold">Twórcy portalu</h3>
-                <p class="ms-2 mt-4 fst-italic">
-                  Z portalem współpracują uznani programiści oraz studenci, którzy chcą rozwijać swoje umiejętności i zdobywać doświadczenie praktyczne. Dołącz do naszego zespołu!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-    <div class="carousel-item">
-      <div class="container-fluid p-5" style="background-color: var(--color-100)">
-        <div class="row">
-          <div class="col-12 col-lg-4 text-center">
-            <img src="img/autorzy/autor1.jpg" alt="Piotr" class="img-fluid rounded-circle">
-          </div>
-          
-          <div class="col-12 col-lg-8">
-            <h3 class="fw-bold">Piotr</h3>
-            <p class="ms-2 mt-4 fst-italic">
-              Wszechstronny programista aplikacji sieciowych i internetowych. W portfolio ma kilka ciekawych projektów zrealizowanych dla firm z branży finansowej. Współpracuje z innowacyjnymi startupami.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <div class="container-fluid p-5" style="background-color: var(--color-100)">
-        <div class="row">
-          <div class="col-12 col-lg-4 text-center">
-            <img src="img/autorzy/autor2.jpg" alt="Anna" class="img-fluid rounded-circle">
-          </div>
-          <div class="col-12 col-lg-8">
-            <h3 class="fw-bold">Anna</h3>
-            <p class="ms-2 mt-4 fst-italic">
-              Doświadczona programistka i projektantka stron internetowych oraz uznana blogerka. Specjalizuje się w HTML5, CSS3, JavaScript, jQuery i Bootstrap. Obecnie pracuje nad nowymi rozwiązaniami dla graczy.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
- 
-      <button class="carousel-control-prev" type="button" data-bs-target="#autorzyCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#autorzyCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
-    </div>
-  <!-- formularz kontaktowy -->
-  <section id="kontakt" class="py-5" style="background-color:#5c6bc0; color:white;">
-  <div class="container">
-    <h2 class="text-center mb-3">Kontakt</h2>
-    <p class="text-center mb-4"><em>Czekamy na Twoją opinię.</em></p>
-    <div class="row">
-      <div class="col-lg-4 mb-4">
-        <p><i class="bi bi-geo-alt-fill me-2"></i>Płock, al. Kilińskiego 12</p>
-        <p><i class="bi bi-telephone-fill me-2"></i>+48 24 366 41 28</p>
-        <p><i class="bi bi-envelope-fill me-2"></i>informatyka@wlodkowic.pl</p>
-      </div>
-      <div class="col-lg-8">
-        <form>
-          <div class="row">
-            <div class="col-md-6 mb-3">
-              <label for="imie" class="form-label">Podaj imię</label>
-              <input type="text" class="form-control" id="imie" placeholder="Imię">
-            </div>
-            <div class="col-md-6 mb-3">
-              <label for="email" class="form-label">Podaj adres e-mail</label>
-              <input type="email" class="form-control" id="email" placeholder="e-mail">
-            </div>
-          </div>
-          <div class="mb-3">
-            <label for="uwagi" class="form-label">Wpisz swoje uwagi i komentarze</label>
-            <textarea class="form-control" id="uwagi" rows="5" placeholder="Uwagi i komentarze"></textarea>
-          </div>
-          <div class="text-end">
-            <button type="submit" class="btn btn-light">Prześlij</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- mapa -->
-<div class="w-100 p-0">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2426.3787545116493!2d19.704633977137732!3d52.54467347206754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471c7090b9c877d9%3A0x2d43661b0a4753e!2zU1pLT8WBQSBXWcW7U1pBIElNLiBQQVfFgUEgV8WBT0RLT1dJQ0EgVyBQxYFPQ0tV!5e0!3m2!1spl!2spl!4v1749020815005!5m2!1spl!2spl"
-    width="100%"
-    height="600"
-    style="border:0;"
-    allowfullscreen=""
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade">
-  </iframe>
-</div> 
-      </main>
+				<!-- mapa -->
+					<div class="w-100 p-0">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2426.3787545116493!2d19.704633977137732!3d52.54467347206754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471c7090b9c877d9%3A0x2d43661b0a4753e!2zU1pLT8WBQSBXWcW7U1pBIElNLiBQQVfFgUEgV8WBT0RLT1dJQ0EgVyBQxYFPQ0tV!5e0!3m2!1spl!2spl!4v1749020815005!5m2!1spl!2spl"
+						width="100%"
+						height="600"
+						style="border:0;"
+						allowfullscreen=""
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade">
+					  </iframe>
+				</div> 
+		</main>
+		
         <!-- stopka -->
-         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 
-    </html>
+</html>
 </DOCTYPE>
